@@ -124,6 +124,18 @@ input:focus{
     text-align: left;
     padding: 5% 2%;
 }
+/*event area start */
+.event-area{
+    display:block;
+    text-align: left;
+    width: 100%;
+    padding-top: 10%;
+    margin-bottom: -5%;
+}
+.event-area img{
+    width: 100%;
+    margin-left: 5%;
+}
 /*subscribe area start */
 #sub{
     background-color: #FFF4D6;
