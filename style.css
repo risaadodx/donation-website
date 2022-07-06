@@ -4,7 +4,7 @@ body{
 }
 section{
     height: 500px;
-    padding-bottom: 50px;
+    
 }
 .top-banner{
     background-image: url(images/Rectangle\ 237.png);
@@ -32,7 +32,7 @@ p{
     padding-left: 2%;
 }
 .half-width img{
-    width: 73.5%;
+    width: 67%;
 
 }
 
@@ -42,6 +42,10 @@ h1{
 h2{
     font-size: 30px;
 }
+span{
+    color: #FF5959;
+}
+
 .donate-btn{
     text-decoration: none;
     background-color: #FF5959;
@@ -89,16 +93,22 @@ input:focus{
     width: 100%;
     padding-top: 0;    
 }
-.container{
+.row{
     display: flex;
     padding-left: 2%;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 3%;
     
+    
+}
+.column{
+    float: left;
+    width: 25%;
+    margin-left: 2%;
 }
 #food{
     background-color:rgb(79, 157, 166, 0.2);
-    text-align: left;
+    text-align: left;  
     padding: 5% 2%;
     border-radius: 5px;
    
@@ -138,4 +148,16 @@ input:focus{
     text-align: left;
     padding-left: 2%;
 
+}
+/*Footer area start */
+.footer{
+    background-color: #0B0D17;
+    margin-bottom: -1%;
+    padding-top: 1%;
+    text-align: center;
+    color: white;
+}
+.footer h2{
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
 }
