@@ -4,7 +4,7 @@ body{
 }
 section{
     height: 500px;
-    padding-bottom: 150px;
+    padding-bottom: 250px;
 }
 .top-banner{
     background-image: url(images/Rectangle\ 237.png);
@@ -15,6 +15,8 @@ section{
 p{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    padding-bottom: 2%;
+    font-size: 15px;
 }
 #header-text{
     margin-top: 15%;
@@ -31,14 +33,17 @@ p{
 }
 .half-width img{
     width: 80%;
-    padding-top: 7.1%;
+    padding-top: 8.3%;
 
 }
 
 h1{
     font-size: 50px;
 }
-.primary-btn{
+h2{
+    font-size: 30px;
+}
+.donate-btn{
     text-decoration: none;
     background-color: #FF5959;
     border-radius: 5px;
@@ -46,3 +51,36 @@ h1{
     color: white;
 }
 /*Donate today start */
+.donate-part{
+    display:block;
+    text-align: center;
+    width: 100%;
+    
+    
+}
+ul{
+    list-style-type: none;
+    padding-bottom: 2%;
+    
+}
+ul li{
+    display: inline-block;
+    padding: 20px 10px;
+    margin-left: 2%;
+    background-color: #eeeeee;
+    
+    
+}
+.active{
+    background-color:#eeeeee;
+    border: solid #FF5959;
+    border-radius: 2px;
+    color:#FF5959;  
+}
+input{
+    border: none;
+    text-align: center;
+}
+input:focus{
+    outline: none;
+}
